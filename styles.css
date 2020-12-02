@@ -1,4 +1,4 @@
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,25 +6,28 @@ ul{
     background-color: red;
     font-family: "Montserrat";
 }
-li{
-    float:right;
+
+li {
+    float: right;
 }
-li a{
-    
+
+li a {
     display: block;
     color: white;
     padding: 1rem 3rem;
     text-decoration: none;
     font-size: 1.2rem;
 }
-.navbar2{
+
+.navbar2 {
     background-color: grey;
-    
 }
-.navbar2 a{
+
+.navbar2 a {
     color: grey;
 }
-.header{
+
+.header {
     background: url("Travelbanner.png");
     background-repeat: no-repeat;
     background-color: #FF5757;
@@ -36,4 +39,37 @@ li a{
     text-align: center;
     font-size: 40px;
     text-align: center;
+}
+
+footer.bottom {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+footer.small {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    margin: 0;
+    background-color: #FF5757;
+    color: white;
+    text-align: center;
+}
+
+a.icon {
+    text-decoration: none;
+    margin-right: 5px;
+    color: black;
+}
+
+a.icon:hover {
+    color: blue;
+    background-color: grey;
+    padding-top: 20px;
+    padding-left: 5px;
+    border-radius: 4px;
 }
