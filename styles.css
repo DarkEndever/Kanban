@@ -41,9 +41,14 @@ li a {
     text-align: center;
 }
 
-@media (max-width:1199px) {
+@media (min-width:1199px) {
     iframe {
         height: 292px;
+    }
+    .contact {
+        margin-top: 50px;
+        margin-left: 350px;
+        margin-right: 350px;
     }
 }
 
@@ -53,6 +58,11 @@ li a {
 @media (max-width:791px) {
     iframe {
         height: 292px;
+    }
+    .contact {
+        margin-top: 50px;
+        margin-left: 350px;
+        margin-right: 350px;
     }
 }
 
@@ -71,6 +81,11 @@ li a {
 @media (max-width:575px) {
     iframe {
         height: 100px/* whatever height you want for mobile */
+    }
+    .contact {
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
 
@@ -118,9 +133,6 @@ a.icon:hover {
 }
 
 .contact {
-    margin-top: 50px;
-    margin-left: 350px;
-    margin-right: 350px;
     border: grey solid 15px;
     border-radius: 10px;
     background-color: #FF5757;
