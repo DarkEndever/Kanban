@@ -41,6 +41,49 @@ li a {
     text-align: center;
 }
 
+@media (max-width:1199px) {
+    iframe {
+        height: 292px;
+    }
+}
+
+
+/* Style for Large Screen */
+
+@media (max-width:791px) {
+    iframe {
+        height: 292px;
+    }
+}
+
+
+/* Style for Medium Screen */
+
+@media (max-width:767px) {
+    iframe {
+        height: 300px;
+    }
+}
+
+
+/* Style for Small Screen */
+
+@media (max-width:575px) {
+    iframe {
+        height: 100px/* whatever height you want for mobile */
+    }
+}
+
+@media (max-width:1199px) {
+    iframe {
+        height: 292px;
+    }
+}
+
+.centre {
+    text-align: center;
+}
+
 footer.bottom {
     position: fixed;
     bottom: 0%;
