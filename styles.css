@@ -43,7 +43,7 @@ li a {
 
 @media (min-width:1199px) {
     iframe {
-        height: 292px;
+        height: 592px;
     }
     .contact {
         margin-top: 50px;
@@ -73,6 +73,9 @@ li a {
     iframe {
         height: 300px;
     }
+    .banner {
+        width: 100%;
+    }
 }
 
 
@@ -86,6 +89,9 @@ li a {
         margin-top: 10px;
         margin-left: 50px;
         margin-right: 50px;
+    }
+    .banner {
+        width: 100%;
     }
 }
 
