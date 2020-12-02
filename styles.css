@@ -1,0 +1,26 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    font-family: "Montserrat";
+}
+li{
+    float:right;
+}
+li a{
+    
+    display: block;
+    color: white;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navbar2{
+    background-color: grey;
+    
+}
+.navbar2 a{
+    color: grey;
+}
