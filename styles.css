@@ -91,9 +91,9 @@ footer.bottom {
 }
 
 footer.small {
-    position: absolute;
     bottom: 0;
     width: 100%;
+    margin-top: 120px;
 }
 
 footer {
@@ -133,4 +133,9 @@ a.icon:hover {
     padding-bottom: 15px;
     font-family: "Montserrat";
     font-size: 20px;
+}
+
+body {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
